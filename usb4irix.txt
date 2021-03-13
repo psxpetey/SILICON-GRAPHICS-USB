@@ -1,0 +1,58 @@
+USB stack for Irix
+
+What's is USB4Irix? 
+   USB4Irix is an effort to have a Universal Serial Bus (USB) stack in workstations with SGI Irix 6.x.
+   It includes USB kernel modules, test and X11 tools. 
+   
+What's is it's status?   
+   USB4Irix is in a very preliminar pre-alpha state and currently is under development and testing. 
+   Currently only USB1.0 keyboards and mice works. However there is work in progress and another devices
+   will be supported soon. 
+   
+   As the status of device drivers are pre-alpha, crashes and things like that may happen. However 
+   a crash dump information recovery tool is included also with information that may be helpful to 
+   debug kernel modules. 
+   
+Which USB hubs are being supported?
+   I'm currently testing the VIA VT6212 cards. I would like to test another ones, but this is the only one I
+   have.
+   
+Which SGI machine are u using for development?
+   All the tests and proofs machine are being executed in my own Fuel MIPS R14000, with Irix 6.5.30
+   Compiler used is MipsPro 7.4.4
+
+Which are your current efforts?
+   Right now I'm focused in finishing the EHCI module and working in USB Mass Storage support. A SCSI-USB subsystem
+   and a FAT16/FAT32 driver will be needed also. 
+
+How can I help? 
+   If you have an SGI machine with a USB controller, it would be way helpful for porting/debugging tasks.
+   Maybe u can help by testing the stack. Some money/hw/books donations would be helpful too.
+   
+   
+   
+   
+Architecture and binaries
+   We have some binaries and modules:
+   Kernel modules: 
+       usbehci.o
+	   usbuhci.o
+	   usbcore.o
+	   usbhub.o
+	   usbkeyboard.o
+	   usbmouse.o
+    
+   Test utilities:
+       usbtool:         Testing tool for USB modules
+	   xusbnotifier:    USB Events notifier for X11
+	   xusbhid:         USB4Irix mouse and keyboard support for X11
+	   
+	   
+   
+   
+   
+   
+
+ 
+   
+   

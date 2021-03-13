@@ -1,0 +1,4 @@
+SHORTNAME=USBCORE
+LONGNAME=USB stack and host controller driver for SGI IRIX 6.5 <bsdero at gmail dot org>
+VERSION=0.0.1.5
+
