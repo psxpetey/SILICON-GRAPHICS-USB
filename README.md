@@ -1,5 +1,5 @@
 # SGI-USB
-This code was made by BSDHERO liscence is open and he accepts no responsibility for damage to your device.
+This code was made by BSDHERO license is open and he accepts no responsibility for damage to your device.
 
 You will need mips pro and cscope to make this package.
 For the build, you should use the script build.sh
