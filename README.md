@@ -1,5 +1,7 @@
 # SGI-USB
- You will need mips pro and cscope to make this package.
+This code was made by BSDHERO liscence is open and he accepts no responsibility for damage to your device.
+
+You will need mips pro and cscope to make this package.
 For the build, you should use the script build.sh
 
 If everything went fine, you will have the next files: usbcore.o usbhub.o usbehci.o usbuhci.o
