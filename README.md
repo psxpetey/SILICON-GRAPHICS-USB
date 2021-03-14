@@ -3,6 +3,10 @@ License:
 
 This code was made by BSDHERO license is open and he accepts no responsibility for damage to your device.
 
+Discord development server:
+
+https://discord.gg/HkuJtRFd
+
 Prerequisites:
 
 You will need mips pro and cscope to make this package.
