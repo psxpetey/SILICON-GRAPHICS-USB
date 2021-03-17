@@ -36,5 +36,5 @@ in these two files are the vendor code and the second 4 are device mine was 0x00
 devices under pci unknown is the usb controllers take the codes you got from hinv 
 And enter them into pcilookup.com
 
-To get a n64 64 bit kernel build build as normal. To get a 32 bit build (n32) for kernel you must (will be added when bsd hero tells me)
+To get a n64 64 bit kernel build build as normal. To get a 32 bit build (n32) for kernel you must (simply change the line 74 in build.sh from export CPUBOARD=$CPUTYPE to export CPUBOARD=IP32 if 32 bit of course)
 Normally it should detect the processor and build your kernel according to that but sometimes it doesn't like in my case.
